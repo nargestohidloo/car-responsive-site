@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@layer base {
+    body{
+        font-family: face;
+        
+    }
+    @font-face {
+        font-family: face;
+        src: url(../font/);
+    }
+}
+
+@layer utilities {
+    .row {
+        @apply flex flex-wrap w-full
+    }
+}
+
+@layer components {
+    .btnred {
+        @apply w-fit h-[50px] rounded-[50px] px-[15px] flex  items-center bg-red-800 text-amber-50 gap-2.5 uppercase hover:bg-blue-950 hover:border hover:border-amber-50 hover:-translate-y-2 duration-700 
+    }
+    .underline{
+         @apply absolute bottom-0 left-0 flex w-full h-[5px] bg-amber-50 -skew-x-[25deg]  justify-between before:content-[''] before:flex before:w-[75%] before:h-full before:bg-amber-500 after:content-[''] after:flex after:w-[20%] after:h-full after:bg-amber-950 duration-700 opacity-0
+    }
+}
+@theme{
+    --animate-wiggle:wiggle 3s ease-in-out infinite;
+    @keyframes wiggle{
+        0% ,
+        100%{
+            transform:translateY(0)
+
+        }
+        50%{
+         transform:translateY(20px)
+
+        }
+
+    }
+}
