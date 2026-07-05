@@ -10,7 +10,7 @@ This project focuses on creating a clean user interface, smooth responsiveness, 
 
 - 📱 Fully Responsive Design
 - 🎨 Modern & Clean User Interface
-- ⚡ Smooth User Experience
+- ⚡ Smooth & Responsive User Experience
 - 🚗 Elegant Landing Page Layout
 - 💻 Optimized for Desktop, Tablet & Mobile
 - 🧩 Semantic HTML5 Structure
