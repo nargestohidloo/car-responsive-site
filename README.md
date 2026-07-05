@@ -22,7 +22,10 @@ This project focuses on creating a clean user interface, smooth responsiveness, 
 ## 📸 Project Preview
 
 <p align="center">
-  <img src="./preview.png" alt="Car Website Preview">
+  <img width="1898" height="905" alt="Screenshot 2026-07-05 150133" src="https://github.com/user-attachments/assets/44d51d9e-72e5-4261-aa38-0961de28e59b" />
+  <img width="1902" height="773" alt="Screenshot 2026-07-05 150712" src="https://github.com/user-attachments/assets/cc18b837-9bf6-4a5d-88e0-e25049aefe61" />
+
+
 </p>
 
 > Replace `preview.png` with your project screenshot or screenshots.
